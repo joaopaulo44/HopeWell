@@ -1,0 +1,171 @@
+/* Estilo geral do corpo */
+body {  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;  
+  font-family: Arial;
+  background-color: #f0f0f0;
+  padding: 0px;
+   }
+
+
+.containerpaciente { 
+            background: white;
+             padding: 50px; 
+             border-radius: 15px; 
+             max-width: 18000px; 
+             margin: auto ; 
+             margin-top: 10px; 
+             box-shadow: 0 0 0px rgba(0,0,0,0.1); 
+            }
+/* Container do formulário */
+.paciente {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 10px ;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs de texto e número */
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Textarea */
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Checkboxes */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* Botão de envio */
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.logo-img {
+      height: 90px;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.4rem;
+      color: #570f0f !important;
+    }
+    .nav-link {
+      font-weight: bold;
+    }
+    main {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .card-body 
+    .form-label {
+  font-weight: 500;
+}
+
+.form-check-label {
+  font-weight: 400;
+}
+
+.form-control,
+.form-check-input {
+  border-radius: 6px;
+}
+
+.card-body .form-label {
+  font-weight: 500;
+}
+
+.form-check-label {
+  font-weight: 400;
+}
+
+.form-control,
+.form-check-input {
+  border-radius: 6px;
+}
+
+/* Botão enviar */
+button[type="submit"] {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  padding: 8px 15px;
+}
+
+/* Ajuste responsivo para telas pequenas */
+@media (max-width: 576px) {
+  .card {
+    margin-top: 20px;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+   }
+     h1 { 
+            text-align: center;
+         }
+        select { 
+            width: 100%;
+             padding: 10px; 
+             margin-top: 20px;
+             }
+        table { 
+            width: 100%;
+             border-collapse: collapse; 
+              margin-top: 20px;
+               display: none;
+             }
+        th, td { 
+            padding: 10px;
+            border: 1px solid #ccc; 
+            text-align: left; 
+        }
+        th { 
+            background-color: #eaeaea;
+         }
+         
